@@ -5,5 +5,13 @@ def generar_contrasena(l=10):
     contrasena = ''.join(random.choice(caracteres) for i in range(l))
     return contrasena
 
+def contadorNumeros():
+    numero = int(input("Ingrese su numero:"))
+    for valor in range(1,numero+1):
+        print(valor)
+
 if __name__ == '__main__':
     print(generar_contrasena())
+    print(contadorNumeros())
+
+
