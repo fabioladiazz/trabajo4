@@ -26,9 +26,14 @@ def calculadora_basica():
         resultado = "Operación no válida"
     return resultado
 
+def saludo():
+    name = str(input("Ingrese su nombre:"))
+    print(f"Hola {name}")
+
 if __name__ == '__main__':
     print(generar_contrasena())
     print(contadorNumeros())
     print (calculadora_basica())
+    print(saludo())
 
 
